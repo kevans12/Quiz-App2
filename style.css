@@ -229,7 +229,7 @@ body {
 
 @media screen and (max-width: 650px) {
   body {padding: 0px; margin: 0px;}
-  #myQuiz { width: 320px; background-size: 320px auto;}
+  #myQuiz { width: 330px; background-size: 330px auto;}
   #myQuiz h1 {width: 300px; font-size: 1.3em; top: 25px; left: 25px;}
   #myQuiz h1 span {line-height: 43px;}
   #myQuiz h2 {margin: 0px;}
@@ -252,7 +252,7 @@ body {
   #myQuiz .results a.btn {margin-bottom: 20px}
 
   #myQuiz .active {left: 25px;}
-  #myQuiz .intro.inactive, #myQuiz .inactive.answered {left: -650px;}
+  #myQuiz .intro.inactive, #myQuiz.inactive.answered {left: -650px;}
 }
 /*test*/
 /*#myQuiz {height: 1000px;}
